@@ -1,0 +1,101 @@
+// JavaScript source code
+<html>
+	<head>
+		<title>Elite Uber</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+     
+	</head>
+      <head>
+      <style>
+      body {
+           background-image: url("https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?auto=format&fit=crop&w=1000&q=80");
+}
+h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+section {
+	background: rgba(244,244,244,0.8);
+	margin: 3% auto;
+	padding: 2%;
+	text-align: center;
+	width: 300px;
+  border: 1px solid rgb(209,209,215);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.info-container {
+	margin-top: 2%;
+	margin-left: 10px;
+	text-align: justify;
+	width: 280px;
+	font-size: 0px;
+}
+
+.info-header {
+	display: inline-block;
+	width: 20%;
+	text-transform: uppercase;
+	font-weight: 200;
+  font-size: 16px;
+}
+
+.info {
+	display: inline-block;
+  width: 80%;
+  text-align: right;
+  font-size: 16px;
+}
+
+.map {
+	margin-top: 2%;
+	opacity: 0.8;
+	width: 280px;
+	height: 280px;
+}
+
+.button {
+	background-image: url("https://i.imgur.com/IdIYKJz.png");
+	background-size: cover;
+	width: 280px;
+	height: 44px;
+	margin: 0 auto;
+}
+
+#time {
+	text-align: right;
+	margin-top: 2%;
+	padding-top: 12px;
+	padding-right: 14px;
+}
+      </style>
+      </head>
+	<body>
+		<section>
+			<h1>Elite Uber</h1>
+			<a href="http://www.google.com">Web GOOOOOGLE </a>
+                  <div class="info-container">
+				<span class="info-header">When</span>
+				<span class="info when">January 6, 2014 at 11:00pm</span>
+			</div>
+                  <div class="info-container">
+				<span class="info-header">Where</span>
+				<span class="info where">Denny</span>
+			</div>
+                 	<img class="map" src="http://maps.googleapis.com/maps/api/staticmap?center=39.700420,-104.853891&zoom=17&format=png&sensor=false&size=280x280&maptype=roadmap&style=element:geometry.fill|color:0xf4f4f4&markers=color:red|39.700420,-104.853891&scale=2" alt="">
+			<div class="button">
+				<p id="time">ESTIMATING TIME</p>
+			</div>
+		</section>
+		
+	</body>
+</html>
